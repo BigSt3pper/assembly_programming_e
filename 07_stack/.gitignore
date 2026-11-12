@@ -1,0 +1,11 @@
+# build artefacts in 07_stack - never commit these
+*.o
+01
+02
+03
+04
+05
+06
+# reproducible from trace_engine.py, keep logs out of git
+*_trace.log
+audit_output.txt
